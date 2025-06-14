@@ -56,10 +56,10 @@ $orderData = [
 
 | Parameter    | Type    | Description                          |
 | ------------ | ------- | ------------------------------------ |
-| buyer\_name  | string  | Customer's full name                 |
-| buyer\_phone | string  | Customer's phone number              |
-| buyer\_email | string  | Customer's email address             |
+| buyer_name  | string  | Customer's full name                 |
+| buyer_phone | string  | Customer's phone number              |
+| buyer_email | string  | Customer's email address             |
 | amount       | integer | Amount to be paid (in minor units)   |
-| account\_id  | string  | Your ZenoPay account ID              |
+| account_id  | string  | Your CanorPay account ID              |
 
 
