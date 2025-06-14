@@ -43,6 +43,7 @@ Sends a POST request to the CanorPay API to create an order. Includes basic erro
 
 #### Order Data
 ```php
+$url = "https://api.canorpay.com";
 $orderData = [
     'buyer_email' => "CUSTOMER_EMAIL",
     'buyer_name' => 'CUSTOMER_NAME',
