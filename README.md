@@ -63,3 +63,12 @@ $orderData = [
 | account_id  | string  | Your CanorPay account ID              |
 
 
+$options = [
+    'http' => [
+        'method'  => 'POST',
+        'header'  => "Content-Type: application/x-www-form-urlencoded\r\n",
+        'content' => $queryString,
+    ],
+];
+
+
