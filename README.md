@@ -39,9 +39,11 @@ Sends a POST request to the CanorPay API to create an order. Includes basic erro
 ### Script Components
 
 #### API Endpoint
-
+  -URL: https://api.canorpay.com
+    This is the endpoint for creating an order.
 
 #### Order Data
+The following data is sent in the POST request:
 ```php
 $url = "https://api.canorpay.com";
 $orderData = [
