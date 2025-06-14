@@ -1,6 +1,6 @@
-# ZenoPay Order Creation and Status Check Scripts
+#   CanorPay Order Creation and Status Check Scripts
 
-This repository contains PHP scripts to interact with the ZenoPay API for order creation and order status checking. It also includes a webhook handler for receiving payment notifications.
+This repository contains PHP scripts to interact with the CanorPay API for order creation and order status checking. It also includes a webhook handler for receiving payment notifications.
 
 ---
 
@@ -34,8 +34,20 @@ This repository contains PHP scripts to interact with the ZenoPay API for order 
 ## 🧾 Order Creation Script
 
 ### Overview
-Sends a POST request to the ZenoPay API to create an order. Includes basic error logging.
+Sends a POST request to the CanorPay API to create an order. Includes basic error logging.
 
 ### Script Components
 
 #### API Endpoint
+
+
+#### Order Data
+```php
+$orderData = [
+    'buyer_email' => "CUSTOMER_EMAIL",
+    'buyer_name' => 'CUSTOMER_NAME',
+    'buyer_phone' => 'CUSTOMER_PHONE_NUMBER',
+    'amount' => 1000,
+    'account_id' => 'YOUR_ACCOUNT_ID'
+];
+
